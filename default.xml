@@ -10,11 +10,11 @@
            sync-j="2" />
 
   <!-- Meta layers for testing -->
-  <project name="kavia-common/test-meta-core"
+  <project name="veera-ai/test-meta-core"
            path="sources/meta-test-core"
            remote="github" />
   
-  <project name="kavia-common/test-meta-apps"
+  <project name="veera-ai/test-meta-apps"
            path="sources/meta-test-apps"
            remote="github" />
 
