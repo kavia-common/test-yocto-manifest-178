@@ -14,7 +14,7 @@ This manifest includes:
 
 ```bash
 # Initialize repo
-repo init -u https://github.com/kavia-common/test-yocto-manifest -b main -m default.xml
+repo init -u https://github.com/veera-ai/test-yocto-manifest -b main -m default.xml
 
 # Sync repositories
 repo sync -j2
@@ -31,7 +31,7 @@ curl -X POST "http://localhost:8000/api/repo-manifest/sync" \
   -H "Authorization: Bearer <token>" \
   -d '{
     "project_id": 4806,
-    "manifest_url": "https://github.com/kavia-common/test-yocto-manifest",
+    "manifest_url": "https://github.com/veera-ai/test-yocto-manifest",
     "manifest_branch": "main",
     "manifest_file": "default.xml",
     "repo_type": "public",
